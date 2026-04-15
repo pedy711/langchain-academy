@@ -40,7 +40,7 @@ langgraph dev
 
 ## Required environment variables
 
-- `OPENAI_API_KEY` — used by all modules (ChatOpenAI with gpt-4o)
+- `GOOGLE_API_KEY` — used by all modules (ChatGoogleGenerativeAI with gemini)
 - `LANGSMITH_API_KEY`, `LANGSMITH_TRACING_V2="true"`, `LANGSMITH_PROJECT="langchain-academy"` — LangSmith tracing
 - `TAVILY_API_KEY` — web search, used in module-4 and module-6
 
