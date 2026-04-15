@@ -13,7 +13,7 @@ from langgraph.store.base import BaseStore
 import configuration
 
 # Initialize the LLM
-model = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0)
+model = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
 
 # Memory schema
 class Memory(BaseModel):
